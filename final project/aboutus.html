@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Healthcare and Biomedical Services</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+    .bg-text1{
+
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    text-align: center;
+    border: 3px solid #f1f1f1;
+    width: auto;
+    height: 20%;
+    padding-top: 20px;
+    font-size: x-large;
+    }
+    
+    .bg-text2{
+        
+width: auto;
+        
+    }
+    
+form {border: 3px solid #f1f1f1;
+    width:30%;
+    margin: auto;
+    }
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+    h2{
+        text-align: center;
+    }
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 18px;
+    margin-left: 5px;
+    background-color: #f44336;
+}
+    .cancelbtn a{
+        text-decoration: none;
+    }
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 35%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+    
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 10px;
+    margin-top: 150px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+    
+    .aboutus{
+        
+        height: auto;
+        width: 100%;
+        float: right;
+    }
+    p{
+        color: white;
+        margin: 10px;
+        padding: 10px;
+        font-size: 17px;
+    }
+    .column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #FFF;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+       </style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+ <a href="#"><a href="home1.html"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="Healthcare.html"><i class="fa fa-fw fa-wrench"></i> Healthcare</a>
+  <a href="services.html"><i class="fa fa-fw fa-user"></i> Services</a>
+  <a href="about.html"><i class="fa fa-fw fa-envelope"></i> About</a>Contact</a>
+  <a href="contact1.html"><i class="fa fa-fw fa-envelope"></i> Contact us</a>Contact</a>
+</div>
+
+<div class="bg-text1">
+  <h1 ><span style="font-size:30px; cursor:pointer; float: left;"onclick="openNav()">&#9776; Menu</span>Healthcare and Biomedical Services</h1>
+  
+</div>
+  
+<div class="about-section">
+  <h1 style="color: black;">About Us Page</h1>
+  <p style="color: orange;">Hey, we are here to help you in knowing about various healthcare facts including how to stay fit, live disease free, healthy and energetic lifestyle.</p>
+  <p style="color: orange;">Also provides information related to various services that can be provided in order to cure diseases.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="ad.jpg" alt="Avantika" style="width:100%">
+      <div class="container">
+        <h2>Avantika Dixit</h2>
+        <p class="title" style="color: red;">Captain</p>
+        <p style="color: black;">CODEFIESTA'S Team Captain</p>
+        <p style="color: black;">avantikadixit25@gmail.com</p>
+        <p><button class="button"><a href="mailto:avantikadixit25@gmail.com?">Contact</a></button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="pj.jpg" alt="Priyanshu" style="width:100%">
+      <div class="container">
+        <h2>Priyanshu Singh Jadaun</h2>
+        <p class="title" style="color: red;">Designer</p>
+        <p style="color: black;">CODEFIESTA'S Team Member</p>
+        <p style="color: black;">priyanshu8475@gmail.com</p>
+        <p><button class="button"><a href="mailto:priyanshu8475@gmail.com?">Contact</a></button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="osr.jpg" alt="Omkar" style="width:100%">
+      <div class="container">
+        <h2>Omkar Singh Raghav</h2>
+        <p class="title" style="color: red;">Developer</p>
+        <p style="color: black;">CODEFIESTA'S Team Member</p>
+        <p style="color: black;">9058338839om@gmail.com</p>
+        <p><button class="button"><a href="mailto:9058338839om@gmail.com?">Contact</a></button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+
+
+<script type="text/javascript">
+function openNav() {
+    var nav = document.getElementById("mySidenav");
+    if(nav.style.width == '200px'){
+        nav.style.width = '0';
+    } else {
+        nav.style.width = "200px";
+    }
+}
+</script>
+     
+</body>
+</html> 

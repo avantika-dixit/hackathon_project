@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Healthcare and Biomedical Services</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+    .bg-text1{
+
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    text-align: center;
+    border: 3px solid #f1f1f1;
+    width: auto;
+    height: 20%;
+    padding-top: 20px;
+    font-size: x-large;
+    }
+    
+    .bg-text2{
+        
+width: auto;
+        
+    }
+    
+form {border: 3px solid #f1f1f1;
+    width:30%;
+    margin: auto;
+    }
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+    h2{
+        text-align: center;
+    }
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 18px;
+    margin-left: 5px;
+    background-color: #f44336;
+}
+    .cancelbtn a{
+        text-decoration: none;
+    }
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 35%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+    
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 10px;
+    margin-top: 150px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+    
+    .aboutus{
+        
+        height: auto;
+        width: 100%;
+        float: right;
+    }
+    p{
+        color: white;
+        margin: 10px;
+        padding: 10px;
+        font-size: 17px;
+    }
+    
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: horizontal;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 25px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 25px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+    </style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+ <a href="#"><a href="home1.html"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="Healthcare.html"><i class="fa fa-fw fa-wrench"></i> Healthcare</a>
+  <a href="services.html"><i class="fa fa-fw fa-user"></i> Services</a>
+  <a href="aboutus.html"><i class="fa fa-fw fa-envelope"></i> About</a>Contact</a>
+  <a href="contact1.html"><i class="fa fa-fw fa-envelope"></i> Contact us</a>Contact</a>
+</div>
+
+<div class="bg-text1">
+  <h1 ><span style="font-size:30px; cursor:pointer; float: left;"onclick="openNav()">&#9776; Menu</span>Healthcare and Biomedical Services</h1>
+  
+</div>
+   
+<div class="container" style="background-color: lightgrey;">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p style="text-align: center; color: #FF0000;">Swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="map.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name.. " required>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required="">
+        <label for="country">Country</label>
+        <select id="country" name="country" required>
+          <option value="australia">India</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <button type="submit" onclick="myFunction()">SUBMIT</button>
+      </form>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+function openNav() {
+    var nav = document.getElementById("mySidenav");
+    if(nav.style.width == '200px'){
+        nav.style.width = '0';
+    } else {
+        nav.style.width = "200px";
+    }
+}
+function myFunction() {
+  alert("Your request has been accepted!!!");
+}
+</script>
+     
+</body>
+</html> 
